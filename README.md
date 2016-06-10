@@ -29,3 +29,8 @@
   + Big profile avatar has a drop shadow
   + Progress bars (like the achievement display) are orange and are cut-off at the right side (no border radius)
 
+### Screenshots
+![Steam Client Overview](http://i.imgur.com/C9Lb0vg.png)
+![Steam Web Discount Block](http://i.imgur.com/Cxixan5.png)
+![Steam Web Progress Bars](http://i.imgur.com/LdMmZyX.png)
+![Steam Web Friends](http://i.imgur.com/HopHhY2.png)

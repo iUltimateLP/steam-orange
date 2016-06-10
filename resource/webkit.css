@@ -1,0 +1,186 @@
+::-webkit-scrollbar,
+::-webkit-scrollbar-corner {
+	width: 15px;
+	height: 15px;
+	background: #171717;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+	background: #575552 center no-repeat;
+	border: 1px solid #171717;
+}
+
+::-webkit-scrollbar-track:horizontal,
+::-webkit-scrollbar-thumb:horizontal {
+	border-left: 0;
+	border-rigtht: 0;
+}
+
+::-webkit-scrollbar-track:vertical,
+::-webkit-scrollbar-thumb:vertical {
+	border-top: 0;
+	border-bottom: 0;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background-color: #5d5b58;
+}
+
+::-webkit-scrollbar-track:vertical {
+	background: #171717 -webkit-gradient(linear, center top, center 89, from(rgb(59, 59, 59)), to(rgb(23, 23, 23)));
+}
+
+::-webkit-scrollbar-track:horizontal {
+	background: #171717 -webkit-gradient(linear, left center, 89 center, from(rgb(59, 59, 59)), to(rgb(23, 23, 23)));
+}
+
+
+::-webkit-scrollbar-button:hover,
+::-webkit-scrollbar-thumb:hover {
+	background-color: #676461;
+}
+
+::-webkit-scrollbar-thumb {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAD9JREFUeNpi/P//PwMhwAQibly/9h8fzUi0SefPnfuPjybepKNHjvxHpQ+j0MSbtGvXzv/I9G44vYN4kwACDAA7RESWY5qxTAAAAABJRU5ErkJggg==);
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+	height: 23px;
+	background-position: center 7px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAD9JREFUeNpi+P//PwMyTk6I+48uxsSABFIS4//7+PqDaWRxJnQFIICukAldAQwgK2QEuQFdATLYsnkjA0CAAQCJHDCKKVQLaAAAAABJRU5ErkJggg==);
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+	height: 23px;
+	background-position: center 9px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAENJREFUeNpiTE6I++/j68+AC2zZvJGBac78hYwgBi4FIHkmEAebQpgCMOf///9wDLJ6/dq1/0E0sjiKIphCdDGAAAMAtQVIOLvLsjoAAAAASUVORK5CYII=);
+}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+	width: 23px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEZJREFUeNpi+P//PwMyTk6I+8/EgARSEuP/+/j6MzChC4AAE7oACDA/eXgfRQCscs78hYxbNm9EFQQR6BJwi1AksLkTIMAAsFg1w4z04pgAAAAASUVORK5CYII=);
+}
+
+::-webkit-scrollbar-button:horizontal:increment {
+	width: 23px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAENJREFUeNpiSE6I+w8EDMiYycfXnyElMf4/AxJgAhHoEkwwBrIEE7I2mASK4JbNGxnmzF/IyIQuANeOLAAG2NwJEGAAuVg0Qtlxn1kAAAAASUVORK5CYII=);
+}
+
+/* Avatar text */
+.persona.in-game, a.persona.in-game, .persona.in-game a, .friend_status_in-game, .friend_status_in-game div, .friend_status_in-game a {
+	color: #FF9800 !important;
+}
+
+/* Avatar image border */
+.playerAvatar.in-game, .friend_block_holder.friend_status_in-game .friend_block_avatar, .friend_activity.friend_status_in-game .friend_block_avatar, .appHubIconHolder.in-game, .avatar_block_status_in-game {
+	background-color: #FF9800 !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#FF9800), color-stop(95%,#EF6C00)) !important;
+    background: -moz-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: -webkit-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: -o-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: -ms-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: linear-gradient( to bottom, #FF9800 5%, #EF6C00 95%) !important;
+    filter: none;
+}
+
+/* Inner Avatar image border */
+.playerAvatar.in-game img, .friend_status_in-game .friend_block_avatar img, .appHubIconHolder.in-game img, .avatar_block_status_in-game img {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#EF6C00), color-stop(95%,#FF9800)) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EF6C00', endColorstr='#FF9800',GradientType=0 ) !important;
+    background: -moz-linear-gradient( top, #EF6C00 5%, #FF9800 95%) !important;
+    background: -webkit-linear-gradient( top, #EF6C00 5%, #FF9800 95%) !important;
+    background: -o-linear-gradient( top, #EF6C00 5%, #FF9800 95%) !important;
+    background: -ms-linear-gradient( top, #EF6C00 5%, #FF9800 95%) !important;
+    background: linear-gradient( to bottom, #EF6C00 5%, #FF9800 95%) !important;
+}
+
+/* Discount blocks */
+.discount_block .discount_pct, .discount_pct {
+	color: #FFC107 !important;
+    background: #BF360C !important;
+}
+
+/* "Buy" buttons */
+.btnv6_green_white_innerfade.btn_medium {
+	color: #FFA726 !important;
+	background: #FF5722 !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#E64A19), color-stop(95%,#BF360C)) !important;
+    background: -moz-linear-gradient( top, #E64A19 5%, #BF360C 95%) !important;
+    background: -webkit-linear-gradient( top, #E64A19 5%, #BF360C 95%) !important;
+    background: -o-linear-gradient( top, #E64A19 5%, #BF360C 95%) !important;
+    background: -ms-linear-gradient( top, #E64A19 5%, #BF360C 95%) !important;
+    background: linear-gradient( to bottom, #E64A19 5%, #BF360C 95%) !important;
+}
+
+/* Small green and grey buttons on a profile */
+.btn_green_white_innerfade > span {
+	color: #D2E885 !important;
+}
+
+.btn_grey_white_innerfade > span {
+	color: #fff !important;
+}
+
+/* Achievement progress bars */
+.progress_bar {
+	border-radius: 4px 0px 0px 4px !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#FF9800), color-stop(95%,#EF6C00)) !important;
+    background: -moz-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: -webkit-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: -o-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: -ms-linear-gradient( top, #FF9800 5%, #EF6C00 95%) !important;
+    background: linear-gradient( to bottom, #FF9800 5%, #EF6C00 95%) !important;
+}
+
+/* Glow at level circles */
+.friendPlayerLevel.lvl_0 {
+	box-shadow: 0 0 10px #9b9b9b;
+}
+
+.friendPlayerLevel.lvl_10 {
+	box-shadow: 0 0 10px #c02942;
+}
+
+.friendPlayerLevel.lvl_20 {
+	box-shadow: 0 0 10px #d95b43;
+}
+
+.friendPlayerLevel.lvl_30 {
+	box-shadow: 0 0 10px #fecc23;
+}
+
+.friendPlayerLevel.lvl_40 {
+	box-shadow: 0 0 10px #467a3c;
+}
+
+.friendPlayerLevel.lvl_50 {
+	box-shadow: 0 0 10px #4e8ddb;
+}
+
+.friendPlayerLevel.lvl_60 {
+	box-shadow: 0 0 10px #7652c9;
+}
+
+.friendPlayerLevel.lvl_70 {
+	box-shadow: 0 0 10px #c252c9;
+}
+
+.friendPlayerLevel.lvl_80 {
+	box-shadow: 0 0 10px #542437;
+}
+
+.friendPlayerLevel.lvl_90 {
+	box-shadow: 0 0 10px #997c52;
+}
+
+/* Glowing avatar frames */
+.friendBlock .playerAvatar {
+	box-shadow: 0 0 5px;
+}
+
+/* Shadow under big avatar */
+.profile_header .playerAvatar.profile_header_size {
+	box-shadow: 5px 5px 10px #111;
+}

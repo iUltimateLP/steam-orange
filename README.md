@@ -1,8 +1,14 @@
 # *Steam Orange* for Steam™
----
 **Steam Orange** is a skin for **Steam** that I initially created just for my personal pleasure, because I didn't like the cold, blue colors of Steam. So basicially, this skin turns every button, or label which was previously blue into shades of orange.
 
 ---
+
+### How to Install
+It's simple. Go to the releases tab, and click on *"Source Code (.zip)"* under the release description.
+Then jump to your Steam directory and open up the folder *"skins"*. In there, create a folder named after whatever you want, but I'd prefer *"OrangeSteam"*, so you can identify it among others. Open up that new folder, and copy in all the files you downloaded in the zip archive. Now, just restart / open Steam, click to *"Steam"* in the top bar, and select *"Settings"*. Click on the *"Interface"* tab on the left, and in the skin dropdown, select the skin which is named after the folder you created. You're done!
+
+---
+
 ### Full List of Changes   
 **Library**
   + Selected menu entries have an orange background
@@ -28,6 +34,8 @@
   + Steam level indicators are glowing
   + Big profile avatar has a drop shadow
   + Progress bars (like the achievement display) are orange and are cut-off at the right side (no border radius)
+
+---
 
 ### Screenshots
 ![Steam Client Overview](http://i.imgur.com/C9Lb0vg.png)

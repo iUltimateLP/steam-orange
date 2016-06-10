@@ -5,7 +5,7 @@
 
 ### How to Install
 It's simple. Go to the releases tab, and click on *"Source Code (.zip)"* under the release description.
-Then jump to your Steam directory and open up the folder *"skins"*. In there, open up the zip archive you downloaded, and copy-paste the *"steam-orange-x.x.zip"* into the directory. Now, just restart / open Steam, click to *"Steam"* in the top bar, and select *"Settings"*. Click on the *"Interface"* tab on the left, and in the skin dropdown, select the skin which is named after the folder you created. You're done!
+Then jump to your Steam directory and open up the folder *"skins"*. In there, open up the zip archive you downloaded, and copy-paste the *"steam-orange-x.x"* into the directory. Now, just restart / open Steam, click to *"Steam"* in the top bar, and select *"Settings"*. Click on the *"Interface"* tab on the left, and in the skin dropdown, select the skin which is named after the folder you created. You're done!
 
 ---
 

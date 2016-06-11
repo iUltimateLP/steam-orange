@@ -12,6 +12,22 @@
 			tooltiptext="#tooltip_view_fullscreen" 
 		}
 		
+		"startvr"
+		{
+			"ControlName"		"Button"
+			style="VRButton"
+      			command="url steam://run/250820"
+     			tooltiptext="#tooltip_view_vr_start" 
+		}
+    
+		"exitvr"
+		{
+			"ControlName"		"Button"
+			style="VRButtonExit"
+			command="exitvr"
+			tooltiptext="#tooltip_view_vr_exit" 
+		}
+		
 		"New"
 		{
 		"ControlName" 	"URLLabel"
@@ -722,21 +738,21 @@
 			
 		}
 
-		//FullscreenButton [!$OSX]
-		//{
-		//	padding-left=0
-		//	padding-top=0 
-		//	padding-right=0
-		//	padding-bottom=0
-		//}
+		FullscreenButton [!$OSX]
+		{
+			padding-left=0
+			padding-top=0 
+			padding-right=0
+			padding-bottom=0
+		}
 
-		//FullscreenButton [$OSX]
-		//{
-		//	padding-left=0
-		//	padding-top=3
-		//	padding-right=0
-		//	padding-bottom=0
-		//}
+		FullscreenButton [$OSX]
+		{
+			padding-left=0
+			padding-top=3
+			padding-right=0
+			padding-bottom=0
+		}
 
 		inboxmenuitem
 		{

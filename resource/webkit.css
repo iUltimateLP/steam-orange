@@ -184,3 +184,9 @@
 .profile_header .playerAvatar.profile_header_size {
 	box-shadow: 5px 5px 10px #111;
 }
+
+/* Colored discounts in search view */
+.col.search_discount span {
+	color: #FFC107 !important;
+	background-color: #BF360C !important;
+}
